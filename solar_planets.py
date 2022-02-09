@@ -3,7 +3,7 @@ import cv2
 img = cv2.imread("solar-system.jpg")
 
 cv2.putText(img,
-            "Sun",
+            "Sol",
              (100,80),
              cv2.FONT_HERSHEY_COMPLEX,
              2,
@@ -11,7 +11,7 @@ cv2.putText(img,
              )
 
 cv2.putText(img,
-            "Mercury",
+            "Mercurio",
              (110,180),
              cv2.FONT_HERSHEY_COMPLEX,
              0.5,
@@ -27,21 +27,21 @@ cv2.putText(img,
              )
 
 cv2.putText(img,
-            "Earth",
+            "Tierra",
              (300,270),
              cv2.FONT_HERSHEY_COMPLEX,
              0.5,
              (255,255,255)
              )
 cv2.putText(img,
-            "Mars",
+            "Marte",
              (400,270),
              cv2.FONT_HERSHEY_COMPLEX,
              0.5,
              (255,255,255)
              )
 cv2.putText(img,
-            "Jupiter",
+            "Jupiter", #cv2 no acepta caracteres especiales
              (500,90),
              cv2.FONT_HERSHEY_COMPLEX,
              0.5,
@@ -49,7 +49,7 @@ cv2.putText(img,
              )            
             
 cv2.putText(img,
-            "Saturn",
+            "Saturno",
              (720,110),
              cv2.FONT_HERSHEY_COMPLEX,
              0.5,
@@ -57,7 +57,7 @@ cv2.putText(img,
              ) 
 
 cv2.putText(img,
-            "Uranus",
+            "Urano",
              (950,130),
              cv2.FONT_HERSHEY_COMPLEX,
              0.5,
@@ -65,7 +65,7 @@ cv2.putText(img,
              )
 
 cv2.putText(img,
-            "Neptune",
+            "Neptuno",
              (1080,130),
              cv2.FONT_HERSHEY_COMPLEX,
              0.5,
